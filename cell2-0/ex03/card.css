@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-position: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: antiquewhite;
+    margin: 15%;
+    max-width: 500px;
+    max-height: 800px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05), -5px -5px rgba(0, 0, 0, 0.05);
+}
+
+.profile-pic{
+    height: 30vh;
+    width: 100%;
+    background-image: url(chow-chow.jpeg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.name{
+    font-size: 25px;
+    font-style: bold;
+}
+
+p{
+    text-align: center;
+    padding: 5px;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+}
+
+.contact{
+    width: 100%;
+    cursor: pointer;
+}
+
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}

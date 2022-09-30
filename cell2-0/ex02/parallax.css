@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.para_top{
+    background-image: url("https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?cs=srgb&dl=pexels-guillaume-meurice-1591447.jpg&fm=jpg");
+}
+
+.image_br{
+    min-height: 1000px;
+    background-color: grey;
+}
+
+.para_bottom{
+    background-image: url("https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?cs=srgb&dl=pexels-pixabay-235621.jpg&fm=jpg");
+}
+
+.para{
+    display: flex;
+    min-height: 1000px;
+    text-align: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+    justify-content: center;
+    height: 30vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
